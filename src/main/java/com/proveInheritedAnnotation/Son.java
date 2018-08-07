@@ -4,7 +4,9 @@ package com.proveInheritedAnnotation;
  * @author qinlinsen
  */
 public class Son extends Parent {
+    @Mother
     private String name;
+    @Mother
     private int age;
 
     @Override
